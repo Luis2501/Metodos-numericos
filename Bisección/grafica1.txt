@@ -1,0 +1,11 @@
+reset
+
+set size 1,1
+
+set grid
+set title "Grafica 1"
+set xlabel "eje X"
+set ylabel "eje Y"
+set xrange[-15:15]
+set yrange[-15:15]
+plot "grafica1.dat" w l title "Polinomio" 

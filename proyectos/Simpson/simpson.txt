@@ -1,0 +1,11 @@
+reset
+
+set size 1,1
+
+set grid
+set title "Area bajo la curva."
+set xlabel "Eje X"
+set ylabel "Eje Y"
+set xrange[0:4]
+set yrange[-10:12]
+plot "simpson.dat" u 1:2 with boxes title "F(x)", "simpson.dat" u 1:2 w l title "f(x)" 

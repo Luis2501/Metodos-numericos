@@ -1,0 +1,14 @@
+reset
+
+set size 1,1
+
+set grid
+set title "Tiro parabolico."
+set xlabel "Eje X"
+set ylabel "Eje Y"
+set xrange[0:10]
+set yrange[0:3]
+plot "solucion.dat" u 1:2 w l title "Sin fricción." 
+
+
+

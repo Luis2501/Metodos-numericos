@@ -1,0 +1,14 @@
+set view 45,120
+unset key
+set iso 100
+set xr [-2*pi : 2*pi]
+set yr [-pi : pi]
+set xlab "x"
+set ylab "y"
+set title "Sine(x + iy)" font "Courier,20"
+set colorbox horiz user origin .58,.78 size .35,.03
+set cblab "Phase angle" font "Courier, 18" offset 0, 4.2
+f(x,y) = (x + y*{0,1})**2
+set pal def (0 "blue", .5 "red", .5 "green", 1 "orange")
+splot "++" u 1:2:(abs(f($1,$2))):\
+   (atan(real(f($1,$2))/imag(f($1,$2)))) with pm3d

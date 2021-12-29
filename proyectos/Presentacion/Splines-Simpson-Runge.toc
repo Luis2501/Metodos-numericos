@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{M\IeC {\'e}todo de Splines.}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Trazadores c\IeC {\'u}bicos.}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Movimiento de una pelota en caida libre.}{6}{0}{1}
+\beamer@sectionintoc {2}{M\IeC {\'e}todo de Simspon.}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Integraci\IeC {\'o}n n\IeC {\'u}merica.}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{La pelota que cae.}{9}{0}{2}
+\beamer@sectionintoc {3}{M\IeC {\'e}todo de Runge-Kutta.}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Resoluci\IeC {\'o}n de ecuaciones diferenciales.}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Pelota como proyectil.}{12}{0}{3}

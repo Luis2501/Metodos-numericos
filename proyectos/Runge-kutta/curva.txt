@@ -1,0 +1,15 @@
+reset
+
+set size 1,1
+
+set parametric
+
+set grid
+set title "Solución"
+set xlabel "Eje X"
+set ylabel "Eje Y"
+set zlabel "Eje Z"
+set xrange[-1:1]
+set yrange[-1:1]
+set zrange[-7:7]
+splot cos(u), sin(u), u
