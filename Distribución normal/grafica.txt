@@ -1,0 +1,11 @@
+reset
+
+set size 1,1
+
+set grid
+set title "Distribución Normal."
+set xlabel "Eje X"
+set ylabel "Eje Y"
+set xrange[-4:4]
+set yrange[0:0.6]
+plot "grafica.dat" u 2:3 with boxes title "F(x)", "grafica.dat" u 2:4 w l title "f(x)" 
